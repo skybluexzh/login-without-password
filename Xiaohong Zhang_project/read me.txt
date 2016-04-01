@@ -1,0 +1,19 @@
+* This Demonstration Software including two parts:
+
+	1.JavaChat
+	2.JavaChat_Android
+
+* The SDK verstion is Android4.4.2.
+
+* Make sure you have MYSQL installed in your computer. Add the chatdb.sql file to your database.
+
+* Add MySQL-connector-Java-5.1.32 to your JavaChatbuild path Libaries for Database connection.
+
+* Change the IP to your own localhost IP.The spots are listed below:
+
+ChatFrame.java, line #173(in JavaChat's chatclient packege) MainActivity.java, line #86(in JavaChat_Android file) sendPhoto.java, line #74(in JavaChat_Android file)
+
+* Lunch Steps:
+1.launch chatserver in JavaChat
+2.launch chatclient in JavaChat
+3.launch JavaChat_Android
